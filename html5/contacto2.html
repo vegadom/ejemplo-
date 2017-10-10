@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">  <!-- lenguaje -->
+	
+	<head>
+		<meta charset='utf=8'>
+		<link rel="stylesheet" href="stylesheet2.css">
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src='scriptPrincipal2.js'></script>
+	</head>
+	<body> <!--cuerpo-->
+		<div id='contenido'> <!--como capsula donde se lleva -->
+			<header>    <!--indica el encabesado de la pagian -->
+				<hgroup>  <!-- ETIQUETA PARA VARIOS ENVABESADOS -->
+					<h1>my page the dominic.com</h1>
+				</hgroup>    	
+						<nav>   <!--etiqueta para botonera de navegacion -->
+							<ul>  <!--etiqueta para lista -->
+							<li><a href='index2.html'>inicio</a></li>   <!--etiqueta para lista -->
+								<li><a href='contacto2.html'>contacto</a></li>
+								<li><a href='index.html'>my life<a/></li>
+								<li><a href='media.html'>media</a></li>
+								
+							</ul>
+						</nav>
+			 </header>
+			 <section>
+				<div id='textopr'>
+					<hgroup>
+						<h1>Contact us</h1>
+					</hgroup>
+					<form>   <!-- etiqueta para formulario-->
+						<label form='nombre'>Name</
+						label>
+						<input type='text' id='nombre' placeholder= 'escribe tu nombre' required>  <!-- placeholder etiqueta  en caja text-->
+						<label form='correo'>email</label>
+						<input type='email' id='correo' placeholder= 'dom@hotmail.com' required>
+						<label form='calificacion'>calificanos</label>
+						<input type='range' id='calificacion' min= '0' max= '10' value='0'>
+						<label form='fecha'>Date</label>
+						<input type='date' id='fecha'>
+						<label form='edad'>age</label>
+						<input type='number' id='edada' min= '0' max= '100'>
+						<input type= 'submit' value='enviar Datos' id='btnsubmit'>
+					</form>
+				</div>
+			 </section>
+		</div>
+			<footer>
+				<canvas id='miCanvas'>    <!--hoja de estilo -->
+				</canvas>
+			</footer>
+	</body>
+</html>
